@@ -1,0 +1,54 @@
+:root {
+    --color-primary: rgb(255, 164, 0); 
+}
+
+body {
+    min-width: 350px;
+    overflow: hidden;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+#main {
+    width: 100hv;
+    height: 100vh;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#result {
+    width: 26vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#button-converter {
+    background-color: var(--color-primary);
+    color: black;
+    height: 5vh;
+    margin-top: 20px;
+}
+
+.styleIO {
+    width: 30vh;
+    height: 5vh;
+    border: 2px solid black;
+    background-color: var(--color-primary);
+    line-height: 5vh;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.styleError {
+    margin-top: 20px;
+    background-color: red;
+    font-size: 5vh;
+}
